@@ -1,0 +1,126 @@
+:root{
+    --highlight-color:#2196F3;
+    --white-color: #ffffff;
+    --dark-bg:#2F303A;
+    --subtitle-color:#212121;
+    --text-color:#757575;
+    --text-on-dark-bg:rgba(255, 255, 255, 0.6);
+
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em; 
+}
+
+.unstiled-list{
+    list-style-type: none;
+}
+
+.link{
+    text-decoration: none;
+}
+
+.dark-section{
+    background-color: var(--dark-bg);
+}
+
+/* Header styling */
+
+.page-header{
+    background-color: var(--white-color);
+}
+
+.logo{
+    font-family: 'Raleway';
+    color: black;
+    font-weight:700;
+    font-size: 26px;
+    line-height: 1.19;
+    
+}
+
+.logo-web{
+    color: var(--highlight-color);
+}
+
+.main-nav-link{
+    color: var(--subtitle-color);
+    font-weight:500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active,
+.main-nav-link:focus{
+    color: var(--highlight-color);
+}
+
+.contact-nav-link{
+    color:var(--text-color);
+    font-weight:500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
+.contact-nav-link:hover,
+.contact-nav-link:active,
+.contact-nav-link:focus{
+    color: var(--highlight-color);
+}
+
+.hero-section {
+    background-color: var(--dark-bg);
+    width: 1600px;
+    height: 600px;
+    left: 0px;
+    top: 80px;
+}
+
+.hero-title{
+    color:var(--white-color);
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+}
+
+.request-button{
+    color:var(--white-color);
+    background-color: var(--highlight-color);
+    border: 1px solid var(--highlight-color);
+    cursor: pointer;
+    font-weight:700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+    position: absolute;
+    width: 200px;
+    height: 50px;
+    left: 700px;
+    top: 430px;
+}
+/* Sections syling */
+
+.skills-subtitle{
+    color: var(--subtitle-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase
+}
+
+.skills-text{
+    color: var(--text-color);
+}
