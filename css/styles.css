@@ -112,6 +112,12 @@ body{
     top: 430px;
 }
 
+.request-button:hover,
+.request-button:active,
+.request-button:focus{
+    background-color: #188CE8;
+}
+
 .skills-subtitle{
     font-weight: 700;
     font-size: 14px;
@@ -163,7 +169,7 @@ body{
 }
 
 .contact-footer-link{
-    color: rgba(255, 255, 255, 0.6);
+    color: var(--text-on-dark-bg);
     line-height: 1.14;
 }
 
