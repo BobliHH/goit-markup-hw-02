@@ -5,7 +5,7 @@
     --subtitle-color:#212121;
     --text-color:#757575;
     --text-on-dark-bg:rgba(255, 255, 255, 0.6);
-
+    --button-background: #F5F4FA;
 }
 
 body{
@@ -73,6 +73,8 @@ body{
     color: var(--highlight-color);
 }
 
+/* Sections syling */
+
 .hero-section {
     background-color: var(--dark-bg);
     width: 1600px;
@@ -111,7 +113,6 @@ body{
     left: 700px;
     top: 430px;
 }
-/* Sections syling */
 
 .skills-subtitle{
     color: var(--subtitle-color);
@@ -146,6 +147,8 @@ body{
     line-height: 1.18;
 }
 
+/* Footer Styling */
+
 .footer-section{
     background-color: var(--dark-bg);
     width: 1600px;
@@ -177,3 +180,43 @@ body{
 .contact-footer-link:focus{
     color: var(--highlight-color);
 }
+
+/* Portfolio styling */
+
+.filter-button{
+    color: var(--subtitle-color);
+    background-color: var(--button-background);
+    border: 1px solid var(--button-background);
+    border-radius: 4px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.62;
+    text-align: center;
+    
+}
+
+.filter-button:hover,
+.filter-button:active,
+.filter-button:focus{
+    color: var(--white-color);
+    background-color: var(--highlight-color);
+    cursor: pointer;
+    
+}
+
+.portololio-name {
+    color: var(--subtitle-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.portofolio-type {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.87;
+
+}
+
+
