@@ -2,13 +2,13 @@
     --highlight-color:#2196F3;
     --white-color: #ffffff;
     --dark-bg:#2F303A;
-    --subtitle-color:#212121;
     --text-color:#757575;
     --text-on-dark-bg:rgba(255, 255, 255, 0.6);
     --button-background: #F5F4FA;
 }
 
 body{
+    color: #212121;
     font-family: 'Roboto', sans-serif;
     font-weight: 400;
     font-size: 14px;
@@ -40,7 +40,6 @@ body{
     font-weight:700;
     font-size: 26px;
     line-height: 1.19;
-    
 }
 
 .logo-web{
@@ -48,7 +47,6 @@ body{
 }
 
 .main-nav-link{
-    color: var(--subtitle-color);
     font-weight:500;
     line-height: 1.14;
     letter-spacing: 0.02em;
@@ -75,7 +73,7 @@ body{
 
 /* Sections syling */
 
-.hero-section {
+.hero-section{
     background-color: var(--dark-bg);
     width: 1600px;
     height: 600px;
@@ -115,7 +113,6 @@ body{
 }
 
 .skills-subtitle{
-    color: var(--subtitle-color);
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -127,15 +124,12 @@ body{
 }
 
 .title{
-    color: var(--subtitle-color);
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
-    text-align: center;
 }
 
-.out-team-subtitle {
-    color: var(--subtitle-color);
+.out-team-subtitle{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.18;
@@ -160,7 +154,6 @@ body{
 .maps-link{
     color: var(--white-color);
     line-height: 1.14;
-
 }
 
 .maps-link:hover,
@@ -172,7 +165,6 @@ body{
 .contact-footer-link{
     color: rgba(255, 255, 255, 0.6);
     line-height: 1.14;
-
 }
 
 .contact-footer-link:hover,
@@ -184,7 +176,6 @@ body{
 /* Portfolio styling */
 
 .filter-button{
-    color: var(--subtitle-color);
     background-color: var(--button-background);
     border: 1px solid var(--button-background);
     border-radius: 4px;
@@ -192,7 +183,6 @@ body{
     font-size: 16px;
     line-height: 1.62;
     text-align: center;
-    
 }
 
 .filter-button:hover,
@@ -201,22 +191,17 @@ body{
     color: var(--white-color);
     background-color: var(--highlight-color);
     cursor: pointer;
-    
 }
 
-.portololio-name {
-    color: var(--subtitle-color);
+.portololio-item-name{
     font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 
-.portofolio-type {
+.portofolio-type{
     color: var(--text-color);
     font-size: 16px;
     line-height: 1.87;
-
 }
-
-
