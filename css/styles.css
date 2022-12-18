@@ -10,7 +10,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    font-weight: 400px;
+    font-weight: 400;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em; 
@@ -123,4 +123,57 @@ body{
 
 .skills-text{
     color: var(--text-color);
+}
+
+.title{
+    color: var(--subtitle-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+    text-align: center;
+}
+
+.out-team-subtitle {
+    color: var(--subtitle-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.our-team-text {
+    color: var(--text-color);
+    font-size: 16px;
+    line-height: 1.18;
+}
+
+.footer-section{
+    background-color: var(--dark-bg);
+    width: 1600px;
+    height: 251px;
+    left: 0px;
+    top: 2097px;
+}
+
+.maps-link{
+    color: var(--white-color);
+    line-height: 1.14;
+
+}
+
+.maps-link:hover,
+.maps-link:active,
+.maps-link:focus{
+    color: var(--highlight-color);
+}
+
+.contact-footer-link{
+    color: rgba(255, 255, 255, 0.6);
+    line-height: 1.14;
+
+}
+
+.contact-footer-link:hover,
+.contact-footer-link:active,
+.contact-footer-link:focus{
+    color: var(--highlight-color);
 }
